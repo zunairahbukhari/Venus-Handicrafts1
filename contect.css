@@ -1,0 +1,73 @@
+body {
+    font-family: "Anta", sans-serif;
+    background-image: url(contect.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+#line {
+    color: rgb(174, 154, 0);
+}
+header{
+    background-color: rgb(106, 107, 109);
+}
+/* Custom CSS */
+.map {
+    border-radius: 60px;
+}
+
+@media (min-width: 768px) {
+    .map {
+        width: 100%;
+    }
+}
+
+#contact-us {
+    background-image: url(contact.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.section-heading {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.btn-primary {
+    background-color: rgb(174, 154, 0);
+    border-color: #000000;
+}
+
+.btn-primary:hover {
+    background-color: rgb(61, 55, 7);
+    border-color: #383838;
+}

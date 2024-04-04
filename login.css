@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, rgb(174, 154, 0, 0.7), rgb(0, 0, 0));
+}
+
+.wave {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-weight: 600;
+    color: #333;
+}
+
+.input-group-text {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.input-group-text i {
+    color: #fff;
+}
+
+.input-group input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.input-group:focus-within .input-group-text {
+    background-color: rgb(174, 154, 0);
+    border-color: rgba(56, 33, 4, 0.822);
+}
+
+.input-group:focus-within .input-group-text i {
+    color: #fff;
+}
+#btn{
+    background: rgb(174, 154, 0) ;
+    color: white;
+    transition: 0.5s ease;
+}
+#btn:hover{
+    border-color: rgba(56, 33, 4, 0.822);
+    background: rgba(56, 33, 4, 0.822) ;
+    color: white;
+}

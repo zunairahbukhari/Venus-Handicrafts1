@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login VENUS HANDICRAFS</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="login.css">
+<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="signup.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="comp.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <img class="wave" src="">
+    <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="card shadow">
+                <div class="card-body text-center">
+                    <img src="Web_Photo_Editor.jpg" class="rounded-circle mb-4" alt="User Image" width="100">
+                    <h4 class="title mb-4">Welcome To <br> VENUS HANDICRAFT</h4>
+                    <form id="loginForm">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            <input type="text" id="username" class="form-control input" placeholder="Username">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                            <input type="password" id="password" class="form-control input" placeholder="Password">
+                        </div>
+                        <div class="mb-3 text-end">
+                            <a href="#" id="forgotPassword" class="text-decoration-none">Forgot Password?</a>
+                        </div>
+                        <button type="submit" id="loginBtn" class="btn btn-block">Login</button>
+                    </form>
+                    <a href="sign up.html" style="  color: rgb(87, 77, 1)    "><button type="submit" id="loginBtn" class="btn btn-block">Sign Up</button></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const loginForm = document.getElementById('loginForm');
+        const usernameInput = document.getElementById('username');
+        const passwordInput = document.getElementById('password');
+        const forgotPasswordLink = document.getElementById('forgotPassword');
+
+        loginForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+            const username = usernameInput.value.trim();
+            const password = passwordInput.value.trim();
+
+            if (username === 'aptech' && password === 'aptech') {
+                alert('You have successfully logged in!');
+                // Redirect to the next page
+                window.location.href = 'home.html';
+            } else {
+                alert('Incorrect username or password. Please try again.');
+            }
+        });
+
+        forgotPasswordLink.addEventListener('click', function (event) {
+            event.preventDefault();
+            alert('Please contact support for password recovery.');
+            // Display popup or modal for password recovery
+        });
+    });
+</script>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const priceElement = document.getElementById('price');
+    const qtyInput = document.getElementById('qtyinput');
+    const discountBtn = document.getElementById('discountbtn');
+    const orderBtn = document.getElementById('orderbtn');
+
+    discountBtn.addEventListener('click', function () {
+        let currentPrice = parseFloat(priceElement.innerText.replace('Price: $', '').replace(' (75% off)', ''));
+        if (!isNaN(currentPrice)) {
+            priceElement.innerText = `Price: $${(currentPrice * 0.25).toFixed(2)} (75% off)`;
+        }
+    });
+
+    qtyInput.addEventListener('input', function () {
+        let currentPrice = parseFloat(priceElement.innerText.replace('Price: $', '').replace(' (75% off)', ''));
+        let quantity = parseInt(qtyInput.value);
+        if (!isNaN(currentPrice) && quantity > 0) {
+            priceElement.innerText = `Price: $${(currentPrice * quantity).toFixed(2)}`;
+        }
+    });
+
+    orderBtn.addEventListener('click', function () {
+        if (qtyInput.value.trim() === '') {
+            alert('Please fill the quantity field.');
+        } else {
+            alert('Your order has been successfully done!');
+        }
+    });
+});
+
+
+</script>

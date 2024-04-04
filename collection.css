@@ -1,0 +1,129 @@
+body {
+    font-family: "Anta", sans-serif;
+    background-image: url(collection.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.title {
+    color: rgb(174, 154, 0);
+    transition: color 0.3s ease;
+}
+#cannon {
+    width: 400px; /* Adjust width as needed */
+    height: 350px;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+#line {
+    color: rgb(174, 154, 0);
+}
+
+#cannon:hover {
+    transform: scale(1.1); /* Scale up by 10% on hover */
+}
+.title:hover {
+    color: rgb(87, 77, 1);
+}
+
+.description {
+    font-size: 18px;
+}
+
+#qty {
+    margin-bottom: 20px;
+}
+
+#qtyinput {
+    width: 70px;
+    padding: 5px;
+}
+
+#discountbtn {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#discountbtn:hover {
+    background-color: #ffca28;
+}
+
+#rating {
+    color: #ffd700;
+    font-size: 24px;
+}
+
+.checked {
+    color: #ffd700;
+}
+
+#orderbtn {
+    background-color: #ffd700;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#orderbtn:hover {
+    background-color: rgba(107, 59, 0, 0.822);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    color: #333;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #ffd700;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: rgb(87, 77, 1);
+}
+#btn{
+    background: rgb(174, 154, 0) ;
+    border: 1px solid black;
+    color: white;
+    transition: 0.5s ease;
+}
+#btn:hover{
+    border-color: rgba(56, 33, 4, 0.822);
+    background: rgba(56, 33, 4, 0.822) ;
+    color: white;
+}
